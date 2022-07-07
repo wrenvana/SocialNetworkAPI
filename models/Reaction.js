@@ -22,7 +22,7 @@ const reactionSchema = new Schema(
     },
 
     createdAt: {
-        type: String, 
+        type: Date, 
         default: Date.now,
         //TODO: Add timestamps
     },
