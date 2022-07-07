@@ -1,17 +1,40 @@
 # SocialNetworkAPI
+## Table of Contents
+----------------------------------------------------------------
+- ## [Description](#Description)
+- ## [Installation](#Installation)
+- ## [Usage](#usage)
+- ## [Contributors](#Contributors)
+- ## [Testing](#Testing)
+- ## [License](#License)
+- ## [Username](#Username)
+- ## [Email](#Email)
+----------------------------------------------------------------
+## Description
+This application will provide the back-end for a social network application that allows users to post their thoughts and react to thoughts posted by their friends. It uses Mongoose and Express.js packages.
 
-User Story
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
+----------------------------------------------------------------
+## Installation
+Download the repository and use your command line program of choice. Type "npm install" into your command line program before running this program.
 
-Acceptance Criteria
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+----------------------------------------------------------------
+## Usage
+Type "node server.js" into your command line program and ensure that the PORT is listening. After that tests may be run through Insomnia.
+
+TODO: Insert video demo.
+
+----------------------------------------------------------------
+## Contributors
+Wren Sanchez
+
+----------------------------------------------------------------
+## License
+No license chosen.
+
+----------------------------------------------------------------
+## Username
+https://github.com/wrenvana
+
+----------------------------------------------------------------
+## Email
+    rensanchez00@gmail.com
