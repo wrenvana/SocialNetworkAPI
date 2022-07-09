@@ -1,0 +1,24 @@
+{
+  "name": "socialnetworkapi",
+  "version": "1.0.0",
+  "description": "----------------------------------------------------------------\r - ## [Description](#Description)\r - ## [Installation](#Installation)\r - ## [Usage](#usage)\r - ## [Contributors](#Contributors)\r - ## [Testing](#Testing)\r - ## [License](#License)\r - ## [Username](#Username)\r - ## [Email](#Email)\r ----------------------------------------------------------------\r ## Description\r This application will provide the back-end for a social network application that allows users to post their thoughts and react to thoughts posted by their friends. It uses Mongoose and Express.js packages.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrenvana/SocialNetworkAPI.git"
+  },
+  "author": "Wren Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrenvana/SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/wrenvana/SocialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  }
+}

@@ -12,7 +12,6 @@ const thoughtsSchema = new Schema({
     createdAt: { 
         type: Date, 
         default: Date.now,
-        //TODO: Add timestamps
     },
 
     username:{ 

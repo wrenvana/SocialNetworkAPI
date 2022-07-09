@@ -1,6 +1,3 @@
-//Is this meant to be part of the thought model and not it's own model?
-
-
 const { Schema, model } = require("mongoose");
 
 const reactionSchema = new Schema(
@@ -24,7 +21,6 @@ const reactionSchema = new Schema(
     createdAt: {
         type: Date, 
         default: Date.now,
-        //TODO: Add timestamps
     },
     },
 
