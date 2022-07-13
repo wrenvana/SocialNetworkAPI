@@ -1,6 +1,6 @@
 const { Thought, User } = require("../models");
 
-module.exports = {
+const thoughtController = {
     //Get all thoughts
 getThoughts(req, res) {
     Thought.find()
@@ -94,7 +94,7 @@ addReaction(req, res) {
 
 
 //Remove reaction from thought
-removeReaction(req, res) {
+deleteReaction(req, res) {
     Thought.findOneAndUpdate(
     { _id: req.params.thoughtId },
     { $pull: { reactions: { reactionId: req.params.reactionId } } },
@@ -108,3 +108,5 @@ removeReaction(req, res) {
     .catch((err) => res.status(500).json(err));
     },
 };
+
+module.exports = thoughtController; 

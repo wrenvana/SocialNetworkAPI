@@ -21,7 +21,8 @@ Download the repository and use your command line program of choice. Type "npm i
 ## Usage
 Type "node server.js" into your command line program and ensure that the PORT is listening. After that tests may be run through Insomnia.
 
-TODO: Insert video demo.
+[Demo Part 1](DemoPart1.webm)
+[Demo Part 2](DemoPart2.webm)
 
 ----------------------------------------------------------------
 ## Contributors

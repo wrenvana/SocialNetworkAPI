@@ -1,12 +1,7 @@
-const { Thought, User } = require("../models");
-const { ObjectId } = require("mongoose").Types;
+const { User } = require("../models");
+//const { ObjectId } = require("mongoose").Types;
 
-// const userCount = async () =>
-//     User.aggregate()
-//     .count("userCount")
-//     .then((numberOfUsers) => numberOfUsers);
-
-module.exports = {
+const useController = {
     //Get all users
 getUsers(req, res) {
     User.find()
@@ -87,3 +82,5 @@ deleteFriend(req, res) {
     .catch((err) => res.status(500).json(err));
     },
 };
+
+module.exports = useController;
